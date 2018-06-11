@@ -1,0 +1,24 @@
+{{ partial "head" . }}
+  <body>
+    <div id="container">
+      <div class="panel">
+          <img class="user-icon" src="{{ .Site.BaseURL }}img/{{ .Site.Params.UserInfo.avatar }}" alt="头像"/>
+          <div class="user-motto">{{ .Site.Params.UserInfo.motto }}</div>
+          <div class="user-info">
+            <p>嗨~ 我是{{ .Site.Params.UserInfo.author }}，会一点iOS</p>
+            {{ range .Site.Params.UserInfo.WelcomeMessage }}
+            <p>{{ . }}</p>
+            {{ end }}
+          </div>
+          <div class="bottom-block">
+            {{ range .Site.Menus.main  }}
+            <div class="btn-item">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </div>
+            {{ end }}
+          </div>
+          {{ partial "social.html" . }}
+      </div>
+    </div>
+  </body>
+</html>
