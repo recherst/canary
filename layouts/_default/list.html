@@ -3,9 +3,8 @@
     <div id="wrap">
       <!-- Header -->
       {{ partial "header" . }}
-      <div class="container">
-        <h3>Archive</h3>
-          <div class="panel panel-default">
+      <div class="left-content">
+          <div class="panel-default">
             <div class="panel-body">
             {{ range .Data.Pages.ByPublishDate }}
               <div class="row">
@@ -23,9 +22,10 @@
             {{ end }}
             </div>
           </div>
+          <!-- Footer -->
+          {{ partial "footer" . }}
       </div>
     </div>
-    <!-- Footer -->
-    {{ partial "footer" . }}
+    
   </body>
 </html>
