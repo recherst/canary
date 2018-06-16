@@ -137,11 +137,11 @@ html, body {
   border-bottom: 2px solid #46bd87;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #6b6b6b;
+  color: #344557;
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #6b6b6b;
+  color: #344557;
   background-color: #ffffff;
 }
 .navbar-default .navbar-toggle {
@@ -158,10 +158,10 @@ html, body {
   border-color: #6b6b6b;
 }
 .navbar-default .navbar-link {
-  color: #6b6b6b;
+  color: #344557;
 }
 .navbar-default .navbar-link:hover {
-  color: #6b6b6b;
+  color: #344557;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -173,25 +173,18 @@ html, body {
     border-bottom: 2px solid #46bd87;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #6b6b6b;
+    color: #344557;
     background-color: #ffffff;
   }
 }
 
 
-/*  */
-.left-content {
-  /* background-color: blue; */
-  width: 70%;
-  height: auto;
-  float: right;
-}
 /* Custom page CSS */
 .footer-container .text-muted {
   /* background-color: darkcyan; */
   margin: 20px auto;
   text-align: center;
-  color: #6b6b6b;
+  color: #344557;
 }
 .footer-container a {
   color: #46bd87;
@@ -205,13 +198,25 @@ html, body {
  max-width: 100%;
 }
 .article-content {
-  width: 800px;
+  width: 700px;
+  color: #344557;
 }
 .panel-default {
+  /* background-color: blue; */
   margin: 0 auto;
+  border-color: #fff;
 }
 .panel-body {
   /* background-color: sienna; */
+  /* text-align: center; */
+  /* border: none; */
+}
+.summary {
+  /* background-color: blueviolet; */
+}
+.article-list {
+  width: 700px;
+  /* background-color: bisque; */
 }
 .panel-default h4, h5, h6 {
   text-align: left;
@@ -257,4 +262,23 @@ html, body {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+}
+
+
+/* pagination */
+.pagination {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.pagination a {
+  display: inline-block;
+  /* background-color: coral; */
+  color: #46bd87;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.pagination a:hover {
+   text-decoration: none;
 }

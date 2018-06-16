@@ -3,29 +3,29 @@
     <div id="wrap">
       <!-- Header -->
       {{ partial "header" . }}
-      <div class="left-content">
-          <div class="panel-default">
-            <div class="panel-body">
-            {{ range .Data.Pages.ByPublishDate.Reverse }}
-              <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-4">
-                  <h5 style="text-align: right">
-                    {{ .Date.Format "January 2, 2006" }}
-                  </h5>
-                 </div>
-                 <div class="col-sm-8 col-md-8 col-lg-8">
-                   <h5 style="text-align: left">
-                    <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
-                  </h5>
-                </div>
-              </div>
-            {{ end }}
+      <div class="panel-default article-list">
+        <div class="panel-body">
+        {{ range .Paginator.Pages }}
+          <div class="row">
+             <div class="col-sm-12 col-md-12 col-lg-12">
+               <h5 style="text-align: left">
+                <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
+              </h5>
+              <h6 style="text-align: left; font-size: 15px; margin-top: -10px;">
+                {{ .Date.Format "January 2, 2006" }}
+              </h6>
+            </div>
+            <div class="summary col-sm-12 col-md-12 col-lg-12">
+              {{ .Summary }}
             </div>
           </div>
-          <!-- Footer -->
-          {{ partial "footer" . }}
+        {{ end }}
+        </div>
+        <!-- paginator -->
+        {{ partial "pagination" . }}
       </div>
+      <!-- Footer -->
+      {{ partial "footer" . }}
     </div>
-    
   </body>
 </html>
