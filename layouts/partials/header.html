@@ -4,9 +4,6 @@
       <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}/img/{{ .Site.Params.UserInfo.avatar }}" /></a>
       <span>{{ .Site.Params.UserInfo.motto }}</span>
     </div>
-    <!-- <div id="navbar">
-      
-    </div> -->
     <ul class="nav navbar-nav navbar-right">
         {{ if .Site.Menus.main }}
           {{ range sort .Site.Menus.main }}

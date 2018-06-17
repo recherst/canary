@@ -11,13 +11,14 @@
                <h5 style="text-align: left">
                 <strong><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></strong>
               </h5>
-              <h6 style="text-align: left; font-size: 15px; margin-top: -10px;">
+              <h6 style="text-align: left; font-size: 15px; margin-top: -10px; color: #4a4a4a;">
                 {{ .Date.Format "January 2, 2006" }}
               </h6>
             </div>
             <div class="summary col-sm-12 col-md-12 col-lg-12">
               {{ .Summary }}
             </div>
+            <a style="color: #46bd87; margin-left: 15px;" href="{{ .RelPermalink }}">read more...</a>
           </div>
         {{ end }}
         </div>
