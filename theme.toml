@@ -1,18 +1,18 @@
-name = "Sustain"
+name = "RecherJ"
 license = "MIT"
-licenselink = "https://github.com/nurlansu/hugo-sustain/blob/master/LICENSE.md"
+licenselink = "https://github.com/RecherJ/canary/LICENSE"
 description = "Personal blog built with Bootstrap, powered by Hugo"
-homepage = "https://github.com/nurlansu/hugo-sustain"
+homepage = "https://github.com/RecherJ/canary"
 tags = ["blog", "minimal", "responsive"]
 features = ["responsive", "syntax highlighting"]
 min_version = 0.17
 
 [author]
-  name = "Nurlan Su"
-  homepage = "https://github.com/nurlansu"
+  name = "RecherJ"
+  homepage = "https://github.com/RecherJ"
 
 # If porting an existing theme
 [original]
-  name = "Sustain"
-  homepage = "https://biomadeira.github.io/sustain/"
-  repo = "https://github.com/biomadeira/sustain"
+  name = "canary"
+  homepage = "https://recherj.github.io/"
+  repo = "https://github.com/RecherJ/canary"
