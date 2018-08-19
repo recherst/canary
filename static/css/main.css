@@ -121,7 +121,6 @@ html, body {
 }
 .navbar-default span {
   /* background-color: #6b6b6b; */
-  color: #adadad;
   margin-top: 1rem;
   line-height: 5rem;
 }
@@ -134,6 +133,13 @@ html, body {
 .navbar-default .navbar-nav > li > a {
   /* background-color: aquamarine; */
   color: #344557;
+}
+.navbar-header {
+  width: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #adadad;
 }
 #navbar {
   position: relative;
