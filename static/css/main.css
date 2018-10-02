@@ -100,7 +100,7 @@ html, body {
   border: none;
   margin: 0 auto;
   position: relative;
-  width: 700px;
+  width: 600px;
 }
 
 .navbar-static-top {
@@ -220,7 +220,7 @@ html, body {
  max-width: 100%;
 }
 .article-content {
-  width: 700px;
+  width: 600px;
   color: #344557;
 }
 .panel-default {
@@ -240,17 +240,17 @@ html, body {
   font-size: 15px;
 }
 .article-list {
-  width: 700px;
+  width: 600px;
 }
 .panel-default h1, h2, h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   color: #46bd87;
 }
 .panel-default h4, h5, h6 {
   text-align: left;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   color: #46bd87;
 }
 
@@ -273,7 +273,7 @@ blockquote {
   border-left: 4px solid #42b983;
   padding: 5px 20px;
   color: #9b9b9b;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 code {
@@ -326,14 +326,14 @@ pre {
   /* background-color: #e96900; */
   text-align: left;
   line-height: 30px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* pagination */
 .pagination {
   width: 100%;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 .pagination a {
   display: inline-block;
