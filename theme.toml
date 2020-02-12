@@ -14,5 +14,5 @@ min_version = 0.17
 # If porting an existing theme
 [original]
   name = "canary"
-  homepage = "https://recherj.github.io/"
+  homepage = "/"
   repo = "https://github.com/RecherJ/canary"
