@@ -3,6 +3,25 @@ html, body {
     background-color: black;
 }
 
+/* index.html */
+.user-motto {
+    color: white;
+}
+.user-info {
+    color: white;
+}
+
+.btn-item {
+    border: 1px solid white;
+}
+.btn-item a {
+    color: white;
+}
+
+.contact-block a {
+    color: white;
+}
+
 /* List html */
   .navbar-default {
     background-color: black;

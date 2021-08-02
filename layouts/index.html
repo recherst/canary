@@ -6,7 +6,7 @@
           <img class="user-icon" src="{{ .Site.BaseURL }}img/{{ .Site.Params.UserInfo.avatar }}" alt="头像"/>
           <div class="user-motto">{{ .Site.Params.UserInfo.motto }}</div>
           <div class="user-info">
-            <p>嗨~ 我是{{ .Site.Params.UserInfo.author }}，会一点 iOS</p>
+            <p>嗨~ 我是 {{ .Site.Params.UserInfo.author }}，会一点 iOS</p>
             {{ range .Site.Params.UserInfo.WelcomeMessage }}
             <p>{{ . }}</p>
             {{ end }}
