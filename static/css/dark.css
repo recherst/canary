@@ -1,11 +1,11 @@
 
 html, body {
-    background-color: rgb(40, 40, 40);
+    background-color: black;
 }
 
 /* List html */
   .navbar-default {
-    background-color: rgb(40, 40, 40);
+    background-color: black;
     color: #fff;
   }
   .navbar-default span {
@@ -21,6 +21,25 @@ html, body {
 
   p {
     color: rgb(200, 200, 200);
+  }
+
+  /* Article detail */
+  blockquote {
+    background-color: rgb(20, 50, 77);
+    margin: 2em 0;
+    border-left: 4px solid #42b983;
+    padding: 5px 20px;
+    color: rgb(200, 200, 200);
+    font-size: 13px;
+  }
+  .panel-body {
+      background-color: black;
+  }
+  .article-content {
+      color: rgb(200, 200, 200);
+  }
+  .disqus {
+      background-color: black;
   }
 
   /* pagination */
