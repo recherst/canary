@@ -110,7 +110,6 @@ html, body {
   margin-bottom: 20px;
   background-color: #ffffff;
   vertical-align: middle;
-  /* background-color: burlywood; */
 }
 .navbar-default .navbar-brand img {
   width: 3.6rem;
@@ -119,7 +118,6 @@ html, body {
   margin-top: -0.8rem;
 }
 .navbar-default span {
-  /* background-color: #6b6b6b; */
   margin-top: 1rem;
   line-height: 5rem;
 }
@@ -130,7 +128,6 @@ html, body {
   color: #6b6b6b;
 }
 .navbar-default .navbar-nav > li > a {
-  /* background-color: aquamarine; */
   color: #344557;
 }
 .navbar-header {
@@ -229,7 +226,6 @@ html, body {
 }
 
 .article-top-block {
-  /* background-color: burlywood; */
   padding: 15px;
 }
 .summary a {
@@ -336,7 +332,6 @@ pre {
 }
 .pagination a {
   display: inline-block;
-  /* background-color: coral; */
   color: #46bd87;
   font-size: 30px;
   line-height: 30px;

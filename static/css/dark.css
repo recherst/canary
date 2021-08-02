@@ -2,23 +2,33 @@
 html, body {
     background-color: rgb(40, 40, 40);
 }
-/* index.html */
-.user-motto {
-    color: #fff;
-}
-.user-info {
-    color: #fff;
-}
-
-.btn-item {
-    border: 1px solid #fff;
-}
-.btn-item a {
-    color: #fff;
-}
-
-.contact-block a {
-    color: #fff;
-}
 
 /* List html */
+  .navbar-default {
+    background-color: rgb(40, 40, 40);
+    color: #fff;
+  }
+  .navbar-default span {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav > li > a {
+      color: dimgray;
+  }
+  .navbar-default .navbar-nav > li > a:hover, 
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+  }
+
+  p {
+    color: rgb(200, 200, 200);
+  }
+
+  /* pagination */
+  .pagination {
+      color: rgb(200, 200, 200);
+  }
+
+  /* footer */
+  .footer-container .text-muted {
+      color: rgb(200, 200, 200);
+  }
