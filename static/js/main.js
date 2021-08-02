@@ -7,5 +7,3 @@ jQuery(document).ready(function(e) {
         }, 1e3)
     })
 });
-
-

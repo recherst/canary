@@ -1,0 +1,24 @@
+
+html, body {
+    background-color: rgb(40, 40, 40);
+}
+/* index.html */
+.user-motto {
+    color: #fff;
+}
+.user-info {
+    color: #fff;
+}
+
+.btn-item {
+    border: 1px solid #fff;
+}
+.btn-item a {
+    color: #fff;
+}
+
+.contact-block a {
+    color: #fff;
+}
+
+/* List html */
