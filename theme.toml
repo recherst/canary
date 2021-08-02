@@ -1,18 +1,18 @@
-name = "RecherJ"
+name = "recherst"
 license = "MIT"
-licenselink = "https://github.com/RecherJ/canary/LICENSE"
+licenselink = "https://github.com/recherst/canary/LICENSE"
 description = "Personal blog built with Bootstrap, powered by Hugo"
-homepage = "https://github.com/RecherJ/canary"
+homepage = "https://github.com/recherst/canary"
 tags = ["blog", "minimal", "responsive"]
 features = ["responsive", "syntax highlighting"]
 min_version = 0.17
 
 [author]
-  name = "RecherJ"
-  homepage = "https://github.com/RecherJ"
+  name = "recherst"
+  homepage = "https://github.com/recherst"
 
 # If porting an existing theme
 [original]
   name = "canary"
   homepage = "/"
-  repo = "https://github.com/RecherJ/canary"
+  repo = "https://github.com/recherst/canary"
